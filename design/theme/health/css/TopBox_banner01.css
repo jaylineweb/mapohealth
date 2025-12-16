@@ -1,0 +1,62 @@
+@font-face { font-family: 'GmarketSansBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GmarketSansLight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.fcR-yel{color:#fdff2f !important;}
+.fcR-green{color: #94ff53 !important;}
+.fcR-blue{color:#5df7d8 !important;}
+.tableT1{width:100%;border-radius: 15px;overflow: hidden;}
+.tableT1 th{border-right: 1px solid #4eacbb;background-color:#f7f7f7;border-bottom: 1px solid #4eacbb;padding: 27px 0;text-align:center;background: #15798b;color: #ffffff;font-size: 16px;}
+.tableT1 th:last-child{ border-right:0;}
+.tableT1 td{border-right: 1px solid #4eacbb;border-bottom: 1px solid #4eacbb;padding: 36px 0;text-align:center;word-break:break-all;background: #1d92a5 !important;color: #ffffff;font-size: 26px;font-weight: bold;font-family: 'GmarketSansBold' !important;}
+.tableT1 td:last-child{ border-right:0;}
+.tableT2{width:100%;overflow: hidden;border-radius: 15px;}
+.tableT2 th{border-right: 1px solid #6685bf;background-color:#f7f7f7;border-bottom: 1px solid #6685bf;padding:10px 0;text-align:center;background: #1f407f;color: #ffffff;}
+.tableT2 th:last-child{ border-right:0;}
+.tableT2 td{border-right: 1px solid #6685bf;border-bottom: 1px solid #6685bf;padding: 11px 0;text-align:center;word-break:break-all;background: #365eab !important;color: #ffffff;font-size: 20px;font-weight: bold;font-family: 'GmarketSansBold' !important;}
+.tableT2 td:last-child{ border-right:0;}
+.tp_layer.bg_color_s1{background:#d5e5f7;}
+.tp_layer.bg_color_s1 .tpl_clo a{color:#3e5c93;font-weight:bold;}
+.boxK1{width: 47%;display:inline-block;float: left;}
+.boxK2{width: 52%;display:inline-block;float: right;}
+.boxF .font1{color: #2d436c;font-size: 23px;line-height: 30px;font-weight: bold;text-align: center;font-family: 'GmarketSansBold' !important;}
+.boxF .font2{color: #2d436c;font-size: 15px;line-height: 20px;margin-bottom: 2px;}
+.boxF .btnK{display:inline-block;position: absolute;right: 8px;top: 8px;padding: 10px 10px;width: 120px;background: #b2e9fd;border-radius: 10px;text-align: center;}
+.boxF .btnK span{display:inline-block;background: url(https://www.mapo.go.kr/design/common/images/intro_btn_image001.jpg) no-repeat right center;color: #303030;padding-right: 19px;font-size: 18px;line-height: 22px;font-family:'GmarketSansMedium' !important;}
+.boxF{position: relative;border-radius: 15px;}
+.boxF-in{background: #ffffff;padding: 15px 8px;padding-right: 138px;border-radius: 15px;position: relative;}
+.tpl_left_s_K1{float:left;width: 79%;}
+.p_textD1 span {display:inline-block;}
+.tpl_left_s_K1 .tplr_txb1 > ul > li {font-size: 16px;line-height: 22px;font-family: 'GmarketSansBold' !important;}
+.tpl_left_s_K1 .tplr_txb1 > ul > li span{font-size: 16px;line-height: 22px; font-family: 'GmarketSansBold' !important;}
+.tpl_left_s_K1 .tplr_txb1{padding: 11px 7px;}
+.tpl_right_s .font2{padding: 17px 10px;}
+
+.tpl_right_s .bgF1{background: #179075 url(https://www.mapo.go.kr/design/theme/health/images/time_new.png) no-repeat 27px center;text-align: left;padding: 28px 10px;padding-left: 73px;font-size: 18px;line-height: 21px;font-family: 'GmarketSansBold' !important;}
+.tpl_right_s .bgF2{background: #425dd4 url(https://www.mapo.go.kr/design/theme/health/images/intro_btnBg_imgF2.jpg) no-repeat 27px center;text-align: left;padding: 8px 10px;padding-left: 73px;font-size: 16px;line-height: 21px;font-family: 'GmarketSansMedium' !important;margin-top: 6px;}
+.tpl_right_s{background: #ffffff;height: 115px;padding: 6px 10px 8px 10px;}
+.tpl_clo {margin-top: 15px;}
+.tp_layer {padding: 35px 0 6px;}
+.tplr_txb1 {margin-bottom: 10px;}
+.tpl_clo a{font-size: 16px;line-height: 20px;}
+
+@media screen and (max-width:768px) {
+	.boxK1{float:none;width:100%;margin-bottom: 10px;background: url(https://www.mapo.go.kr/design/common/images/intro_top_image01.jpg) no-repeat center top;margin-top: 5px;}
+	.boxK2{float:none;width:100%;}
+	.boxF .btnK{position: absolute;right: 15px;top: 10px;}
+	.boxF-in{text-align:center;padding: 20px 20px 13px 20px;padding-right: 148px;}
+	.tpl_left_s_K1{width:100%;}
+	.tpl_right_s .font3 br{display:none;}
+	.tpl_right_s{height:auto;margin-top: 12px;}
+	.tpl_right_s .bgF1 {padding: 14px 10px 12px 10px;padding-left: 73px;word-break: keep-all;}
+	.tpl_right_s .bgF2 {padding: 14px 10px 12px 10px;padding-left: 73px;word-break: keep-all;}
+	.boxF .font1{text-align:left;}
+	.tp_layer{padding: 17px 0 6px;}
+	.tpl_left_s_K1 .tplr_txb1{margin-bottom: 4px;}
+}
+
+@media screen and (max-width:530px) {
+	.boxF-in{padding: 20px 20px;}
+	.boxF .btnK{position: static;margin-top: 9px;}
+	.boxF .font1{text-align:center;word-break: keep-all;}
+}

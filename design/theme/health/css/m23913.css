@@ -1,0 +1,169 @@
+
+
+@font-face {
+	font-family: 'S-CoreDream';
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-4Regular.eot');
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-4Regular.ttf') format('truetype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-4Regular.woff') format('woff'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-4Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-5Medium.eot');
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-5Medium.eot?#iefix') format('embedded-opentype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-5Medium.ttf') format('truetype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-5Medium.woff') format('woff'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-5Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-6Bold.eot');
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-6Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-6Bold.ttf') format('truetype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-6Bold.woff') format('woff'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-6Bold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-7ExtraBold.eot');
+	src: url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-7ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-7ExtraBold.ttf') format('truetype'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-7ExtraBold.woff') format('woff'),
+		url('https://www.mapo.go.kr/design/theme/health/fonts/S-CoreDream-7ExtraBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+.wd-auto{width: calc(100% - 40px); max-width: 1200px; margin: 0 auto;}
+
+.mct-sld-wp{padding: 30px 0; position: relative; z-index: 1;}
+.mct-sld-wp:before{content: ''; position: absolute; left: 0; right: 0; top: 0; bottom: 70px; z-index: -1; background: url(https://www.mapo.go.kr/design/theme/health/images/mct_sld_bg.jpg) center 0 no-repeat; background-size: cover;}
+.mct-sld-bx{padding-top: 45px; position: relative; }
+.mct-slick-box{margin: 0 -20px;}
+.mct-sld .slick-list{width: auto; }
+.mct-sld .slick-slide{margin: 0 20px;}
+.mct-sld .slick-slide a{display: block; border-radius: 14px; overflow: hidden;}
+.mct-sld .slick-slide a:focus{outline-offset: -2px;}
+.mct-sld .slick-slide img{display: inline; width: 100%;}
+
+.mct-sld-bx .cntr{position: absolute; top: 0; right: 0;}
+.mct-sld-bx .cntr > li{display: inline-block; vertical-align: middle;}
+.mct-sld-bx .cntr > li > a{display: block; width: 32px; height: 32px; font-size: 0; background: center center no-repeat #fff; border: 1px solid #737373; border-radius: 12px;}
+.mct-sld-bx .cntr > li > .prev{background-image: url(https://www.mapo.go.kr/design/theme/health/images/mct_slbt1.png);}
+.mct-sld-bx .cntr > li > .next{background-image: url(https://www.mapo.go.kr/design/theme/health/images/mct_slbt2.png);}
+.mct-sld-bx .cntr > li > .stop{background-image: url(https://www.mapo.go.kr/design/theme/health/images/mct_slbt3.png);}
+.mct-sld-bx .cntr > li > .play{background-image: url(https://www.mapo.go.kr/design/theme/health/images/mct_slbt4.png); display: none;}
+.mct-sld-bx .cntr .count{font-family: 'S-CoreDream'; font-size: 15px; color: #2c2c2c;}
+.mct-sld-bx .cntr .count span{font-family: inherit; font-size: inherit; }
+.mct-sld-bx .cntr .count strong{ font-family: inherit; font-size: 17px;}
+
+
+.m-ntc-msv{padding: 40px 0; font-family: 'S-CoreDream';}
+.m-ntc-msv *{font-family: inherit;}
+.m-ntc-msv > .wd-auto{display: flex;     justify-content: space-between;}
+.m-ntc-bx{width: 64%; position: relative;}
+.m-ntc-tab{display: flex; padding-right: 52px; border: 1px solid #e1e1e1; margin-bottom: 20px;}
+.m-ntc-tab > li{width: 33%; flex-grow: 1; border-right: 1px solid #e1e1e1;}
+.m-ntc-tab > li > a{display: flex; justify-content: center;     align-items: center; height: 50px; font-weight: 500; font-size: 17px; color: #727272;}
+.m-ntc-tab > li > a.on{background: #e4477a; color: #fff; font-weight: 600; }
+.m-ntc-ls > li{border-bottom: 1px dashed #e2e2e2;}
+.m-ntc-ls > li > a{display: table; width: 100%; height: 110px; table-layout: fixed;}
+.m-ntc-ls > li > a .da{display: table-cell; vertical-align: middle; width: 70px; text-align: center;}
+.m-ntc-ls > li > a .da > b{display: block; font-size: 32px; color: #333; font-weight: 700; line-height: 36px;}
+.m-ntc-ls > li > a .da > span{display: block; font-size: 12px; color: #686868; line-height: 16px;}
+.m-ntc-ls > li > a .con{display: table-cell; vertical-align: middle; padding: 0 10px;}
+.m-ntc-ls > li > a .con > div{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.m-ntc-ls > li > a .con .ti{ font-weight: 500; font-size: 17px; color: #464646; line-height: 22px; padding-top: 4px;}
+.m-ntc-ls > li > a .con .inf{font-size: 14px; color: #787878; line-height: 18px; margin-top: 8px;}
+.m-ntc-bx .more{font-size: 0; position: absolute; right: 1px; top: 1px; width: 52px; height: 50px; background: url(https://www.mapo.go.kr/design/theme/health/images/m_more_ic.jpg) center center no-repeat;}
+
+.minwon-sv{width: 33%; }
+.minwon-sv > h3{display: flex; align-items: center; height: 58px; padding: 0 8%; font-weight: 700; font-size: 19px; color: #fefeff; background: url(https://www.mapo.go.kr/design/theme/health/images/m_mws_bg.jpg) right 0 no-repeat #e4477a;}
+.minwon-sv .mws-ls{display: flex; flex-wrap: wrap; height: calc(100% - 58px);}
+.minwon-sv .mws-ls > li{width: 100%; border: 1px solid #e1e1e1; border-top: none;}
+.minwon-sv .mws-ls > li > a{display: flex;  align-items: center; height: 100%; padding: 4px 8%; padding-right: calc(8% + 12px); font-weight: 500; font-size: 17px; color: #464646; line-height: 22px; letter-spacing: -1px; position: relative;}
+.minwon-sv .mws-ls > li > a:after{content: ''; position: absolute; right: 8%; top: 50%; width: 7px; height: 12px; margin-top: -6px; background: url(https://www.mapo.go.kr/design/theme/health/images/m_mws_arr.jpg) right center no-repeat;}
+.minwon-sv .mws-ls > li > a span{font-size: inherit;}
+.minwon-sv .mws-ls > li > a span > span{display: inline-block;}
+
+.m-quick-wp{padding: 40px 0; font-family: 'S-CoreDream';}
+.m-quick-wp *{font-family: inherit;}
+.m-quick-ls{display: flex; flex-wrap: wrap; box-shadow: 2px 4px 20px rgba(0,0,0,0.2);}
+.m-quick-ls > li{width: 25%; padding: 30px 20px; text-align: center;}
+.m-quick-ls > li + li{border-left: 1px solid #e9e9e9;}
+.m-quick-ls > li > dl{padding-top: 60px; background: center top no-repeat; margin-bottom: 16px; letter-spacing: -1px;}
+.m-quick-ls > li > dl > dt{font-size: 22px; color: #464646; font-weight: 700; line-height: 26px; margin-bottom: 8px;}
+.m-quick-ls > li > dl > dd{font-size: 14px; color: #787878; line-height: 20px;}
+.m-quick-ls .lkbx > li{display: flex;}
+.m-quick-ls .lkbx > li > a{display: flex; align-items: center;  justify-content: center;width: 40%; height: 52px; margin: 1.5px; flex-grow: 1; font-size: 14px; color: #333; padding: 4px; word-break: keep-all; border: 1px solid #e9e9e9; border-radius: 8px;}
+.m-quick-ls .lkbx > li > a > span{font-size: inherit;}
+.m-quick-ls .lkbx > li > a > span > span{display: block; font-size: 12px; color: #888;}
+.m-quick-ls > li.bg1 > dl{background-image: url(https://www.mapo.go.kr/design/theme/health/images/m_quick_ic1.jpg);}
+.m-quick-ls > li.bg2 > dl{background-image: url(https://www.mapo.go.kr/design/theme/health/images/m_quick_ic2.jpg);}
+.m-quick-ls > li.bg3 > dl{background-image: url(https://www.mapo.go.kr/design/theme/health/images/m_quick_ic3.jpg);}
+.m-quick-ls > li.bg4 > dl{background-image: url(https://www.mapo.go.kr/design/theme/health/images/m_quick_ic4.jpg);}
+.m-quick-ls > li.bg1 .lkbx a{background: #f4f7fb;}
+.m-quick-ls > li.bg2 .lkbx a{background: #fbf7fc;}
+.m-quick-ls > li.bg3 .lkbx a{background: #f7fbf4;}
+.m-quick-ls > li.bg4 .lkbx a{background: #fcf8f3;}
+
+.m-ico-lls{display: flex; flex-wrap: wrap; justify-content: space-evenly; padding: 40px 0; margin-top: 40px;}
+.m-ico-lls > li{width: 15%; flex-grow: 1;}
+.m-ico-lls > li > a{display: block; text-align: center; max-width: 140px; margin: 0 auto;}
+.m-ico-lls > li > a > span{display: block; margin-top: 10px; font-size: 14px; color: #464646; line-height: 18px; letter-spacing: -1px;}
+.m-ico-lls > li > a > span > span{display: block; font-size: inherit;}
+
+
+@media only screen and (max-width: 768px){
+.mct-slick-box{margin: 0 -10px}
+.mct-sld .slick-slide{margin: 0 10px;}
+
+.m-ntc-msv > .wd-auto{ flex-wrap: wrap; }
+.m-ntc-bx{width: 100%;}
+.m-ntc-ls > li > a{height: 80px;}
+
+.minwon-sv{width: 100%; margin-top: 30px;}
+.minwon-sv > h3{    padding: 0 4%;}
+.minwon-sv .mws-ls{height: auto;}
+.minwon-sv .mws-ls > li{width: 50%;}
+.minwon-sv .mws-ls > li:nth-child(even){border-left-width: 0;}
+.minwon-sv .mws-ls > li > a{min-height: 54px; }
+
+.m-quick-ls > li{width: 50%; padding: 20px 3%;}
+.m-quick-ls > li:nth-child(n + 3){border-top: 1px solid #e9e9e9;}
+.m-quick-ls > li:nth-child(odd){border-left: none;}
+.m-quick-ls > li > dl > dt{font-size: 20px;}
+
+.m-ico-lls{padding: 10px 0;}
+.m-ico-lls > li{width: 30%; flex-grow: 1; margin: 10px 4px;}
+}
+
+@media only screen and (max-width: 500px){
+.m-ntc-tab{padding-right: 42px; margin-bottom: 10px;}
+.m-ntc-tab > li > a{height: 40px; font-size: 15px; letter-spacing: -1px;}
+.m-ntc-ls > li > a .da{width: 60px;}
+.m-ntc-bx .more{width: 42px; height: 40px;}
+
+.minwon-sv .mws-ls > li{width: 100%;}
+.minwon-sv .mws-ls > li:nth-child(even){border-left-width: 1px;}
+.minwon-sv .mws-ls > li > a{min-height: 40px; padding: 4px 4%; padding-right: calc(4% + 12px); }
+.minwon-sv .mws-ls > li > a:after{right: 4%;}
+
+.m-quick-ls > li{width: 100%; padding: 30px 20px;}
+.m-quick-ls > li + li{border-left: none; border-top: 1px solid #e9e9e9;}
+
+.m-ico-lls > li{width: 40%;}
+}
+
+
